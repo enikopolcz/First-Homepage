@@ -303,8 +303,7 @@ header .search-bar-container label:hover {
 
 .aboutme-text {
   font-size: 2rem;
-  margin-left: 300px;
-  margin-right: 300px;
+  margin: auto;
   text-align: center;
   text-transform: none;
 }
@@ -318,8 +317,7 @@ header .search-bar-container label:hover {
 
 .milestones-text {
   font-size: 2rem;
-  margin-left: 300px;
-  margin-right: 300px;
+  margin: auto;
   text-align: center;
   text-transform: none;
 }
@@ -334,8 +332,7 @@ header .search-bar-container label:hover {
 .vision-text {
   font-size: 2rem;
   text-align: justify;
-  margin-left: 300px;
-  margin-right: 300px;
+  margin: auto;
   text-align: center;
   text-transform: none;
 }
