@@ -1,0 +1,91 @@
+<div class="container-fluid" >
+    <div class="col-lg-4 mb-4 col-sm-">
+        <div class="card">
+          <img src="/img/Netherlands/11.jpg" alt="" class="card-img-top fluid" />
+          <div class="card-body">
+            
+            <h5>Marijuana: how much does it cost in The Netherlands?</h5>
+            
+            <p class="card-text">It's worth noting that the sale and possession of small amounts for personal use is tolerated and is not prosecuted. The cost of marijuana in the Netherlands varies depending on the type and quality of the product, as well as the location of the purchase. </p>
+            <p class="text-capitalize">
+              <a class="read-link" id="read-link" href="#">Read more</a>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 mb-4 col-sm-">
+        <div class="card">
+          <img src="/img/Netherlands/3.jpg" alt="" class="card-img-top fluid" />
+          <div class="card-body">
+            
+            <h5>Interesting facts about The Netherlands that only a few people know</h5>
+            
+            <p class="card-text">We know that this country is the home of tulips, and also known for its extensive system of dikes, dams, and floodgates considering that much of the Netherlands is below sea level, but there's more to discover. Here are a few interesting facts about the Netherlands and its people that you may not know.
+              </p>
+            <p class="text-capitalize">
+              <a class="read-link" id="read-link" href="#">Read more</a>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 mb-4 col-sm-">
+        <div class="card">
+          <img src="/img/4.jpg" alt="" class="card-img-top fluid" />
+          <div class="card-body">
+            
+            <h5>Stereotypes about Dutch people that are actually not true</h5>
+            
+            <p class="card-text">Stereotypes do not accurately represent the entire population. The people of a country are a diverse group of individuals with a wide range of backgrounds, experiences, and perspectives. 
+                                Like many cultures, the Dutch have been subject to stereotypes that are not always accurate. Here are a few that are actually not true
+                </p>
+            <p class="text-capitalize">
+              <a class="read-link" id="read-link" href="#">Read more</a>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 mb-4 col-sm-">
+        <div class="card">
+          <img src="/img/11.jpg" alt="" class="card-img-top fluid" />
+          <div class="card-body">
+            
+            <h5>The Netherlands: Stunning Sustainability</h5>
+            
+            <p class="card-text">The Netherlands is a country known for its flat landscape, picturesque windmills, and beautiful tulip fields. But it is also a country that has made significant strides in sustainability in recent years. Here are just a few examples of how the Netherlands is working to create a more sustainable future.</p>
+            <p class="text-capitalize">
+              <a class="read-link" id="read-link" href="#">Read more</a>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 mb-4 col-sm-">
+        <div class="card">
+          <img src="/img/17.jpg" alt="" class="card-img-top fluid" />
+          <div class="card-body">
+            
+            <h5>What everyone is curious about when it comes to The Netherlands: Marijuana</h5>
+            
+            <p class="card-text">Marijuana legalization is a topic that has sparked much debate in recent years. While some argue that it would lead to increased crime and public health issues, others argue that there are many positive benefits to legalizing marijuana.</p>
+            <p class="text-capitalize">
+              <a class="read-link" id="read-link" href="#">Read more</a>
+            </p>
+          </div>
+        </div>
+      </div>  
+      <div class="col-lg-4 mb-4 col-sm-">
+        <div class="card">
+          <img src="/img/10.jpg" alt="" class="card-img-top fluid" />
+          <div class="card-body">
+            
+            <h5>Why is it so tough to rent a flat in Amsterdam?</h5>
+           
+            <p class="card-text">Amsterdam, the capital of the Netherlands, is a popular destination for tourists and expats alike. However, finding a place to live in Amsterdam can be a challenging task. In this blog post, we will be exploring the difficulties of renting a flat in Amsterdam.</p>
+            <p class="text-capitalize">
+              <a class="read-link" id="read-link" href="#">Read more</a>
+            </p>
+          </div>
+        </div>
+      </div>  
+    </div>
+</div>
+</div>

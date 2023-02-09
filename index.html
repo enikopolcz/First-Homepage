@@ -2,262 +2,162 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>EnikoPolcz Homepage</title>
-
+    <link rel="stylesheet" href="/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+    />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Amatic+SC&family=Covered+By+Your+Grace&family=Montserrat&family=Space+Mono&display=swap"
+      rel="stylesheet"
+    />
 
-    <!--CSS link-->
-    <link rel="stylesheet" href="style.css" />
+    <title>N.E. Journey</title>
   </head>
   <body>
-    <!--  header section starts-->
+    <nav
+      id="parallax-navbar"
+      class="navbar navbar-expand-lg navbar-light bg-transparent"
+    >
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span id="navbar-toggler-icon" class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <a class="navbar-logo" href=""></a>
+        <img id="navbar-logo" src="" alt="" />
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item nav-item-spaced">
+            <a id="nav-link" class="nav-link" href="about.html" target="_blank"
+              >ABOUT</a
+            >
+          </li>
+          <li class="nav-item nav-item-spaced">
+            <a id="nav-link" class="nav-link" href="places.html" target="_blank"
+              >BLOG</a
+            >
+          </li>
+          <li class="nav-item nav-item-spaced">
+            <a
+              id="nav-link"
+              class="nav-link"
+              href="articles.html"
+              target="_blank"
+              >ARTICLES</a
+            >
+          </li>
 
-    <header>
-      <div id="menu-bar" class="fas fa-bars"></div>
-      <a href="#" id="enikologo" ><span>E</span>nikopolcz</a>
-
-      <div id="menu-bar"></div>
-
-    
-
-      <nav class="navbar">
-        <a href="#home">Home</a>
-        <a href="#aboutme">About Me</a>
-        <a href="#milestones">Milestones</a>
-        <a href="#vision">Vision</a>
-        <a href="#skills">Skills</a>
-        <a href="#contact">Contact Me</a>
-      </nav>
-
-      <div id="enikoicon"class="icons">
-        <i class="fas fa-search" id="search-btn"></i>
-        <i class="fas fa-user" id="login-btn"></i>
+          <li class="nav-item nav-item-spaced">
+            <a
+              id="nav-link"
+              class="nav-link"
+              href="contact.html"
+              target="_blank"
+              >CONTACT</a
+            >
+          </li>
+        </ul>
       </div>
+    </nav>
 
-      <form action="" class="search-bar-container">
-        <input type="search" id="search-bar" placeholder="search here..." />
-        <label for="search-bar" class="fas fa-search"></label>
-      </form>
-    </header>
-
-    <!-- header section ends -->
-
-    <!--login form container-->
-
-    <div class="login-form-container">
-      <i class="fas fa-times" id="form-close"></i>
-      <form action="">
-        <h3>login</h3>
-        <input type="email" class="box" placeholder="enter your email" />
-        <input type="password" class="box" placeholder="enter your password" />
-        <input type="submit" value="login now" class="login-button" />
-        <input type="checkbox" id="remember" />
-        <label for="remember">remember me</label>
-        <p>forget password? <a href="#">click here</a></p>
-        <p>don't have and account? <a href="#">register now</a></p>
-      </form>
+    <div class="parallax-header" id="parallax-bg">
+      <div class="container">
+        <div class="header-content">
+          <h1 class="text-center text-white">N.E. JOURNEY</h1>
+        </div>
+      </div>
     </div>
 
-    <!-- home section starts-->
-
-    <section class="home" id="home">
-      <div class="content">
-        <h3>Hello, it's Eniko</h3>
-        <p>Let me indroduce myself</p>
-        <a href="#aboutme" class="login-button">Find out more</a>
+    <div class="intro" id="intro">
+      <div class="container1 container-fluid">
+        <div class="introduction-content">
+          <p class="introduction">
+            Welcome to my Digital Journey <br />
+            AS a Translator, Copywriter <br />and Web Developer.
+          </p>
+        </div>
       </div>
+    </div>
 
-      <div class="controls">
-        <span class="vid-btn active" data-src="Images/vid-1.mp4"></span>
-        <span class="vid-btn" data-src="Images/vid-2.mp4"></span>
-        <span class="vid-btn" data-src="Images/vid-3.mp4"></span>
-        <span class="vid-btn" data-src="Images/vid-4.mp4"></span>
+    <div class="parallax-center" id="parallax-bg">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-9 mx-auto">
+            <p></p>
+          </div>
+        </div>
       </div>
+    </div>
 
-      <div class="video-container">
-        <video
-          src="Images/vid-1.mp4"
-          id="video-slider"
-          loop
-          autoplay
-          muted
-        ></video>
+    <div class="intro2" id="intro">
+      <div class="container2 container-fluid">
+        <div class="introduction-content">
+          <p class="introduction">
+            <br />
+            THIS WEBSITE WAS CREATED TO SHOWCASE<br />
+            MY SKILLS AND PERSONALITY <br />
+            THROUGH THE LENS OF MY PERSONAL EXPERIENCES AND FIELD OF INTEREST.
+          </p>
+        </div>
       </div>
-    </section>
+    </div>
 
-    <!--home section ends-->
+    <!-- <img id="logo2" src="/img/slider/55.png" alt=""> -->
 
-    
-
-    <!-- About me section starts -->
-    <section class="aboutme" id="aboutme">
-
-      <h1 class="heading">
-       
-          <span>a</span>
-          <span>b</span>
-          <span>o</span>
-          <span>u</span>
-          <span>t</span>
-          <span class="space"></span>
-          <span>m</span>
-          <span>e</span>
-      </h1>
-      <h1 class="aboutme-text">
-  Programming and web development I have learned through self-taught methods, 
-  courses, online and offline tutorials and practice.
-  <br><br>
-  I have created my own website, which is also a channel to my introduction and motivation.
-  <br><br>
-  I used HTML, CSS and JavaScript to create it. 
-  <br><br>
-  I'm familiar with the components that are essential for 
-  for a Junior Developer to perform daily tasks.
-      </h1>
-
-    <!-- </section> Milestones section starts -->
-
-    <section class="milestones" id="milestones">
-
-      <h1 class="heading">
-          <span>m</span>
-          <span>i</span>
-          <span>l</span>
-          <span>e</span>
-          <span>s</span>
-          <span>t</span>
-          <span>o</span>
-          <span>n</span>
-          <span>e</span>
-          <span>s</span>
-      </h1>
-      <h1 class="milestones-text">
-        I obtained two degrees so far: Bachelor's in Human Resources and Master's in Translating and Interpreting.
-        <br>
-        <br>
-        I have worked in the IT field.
-        During these years I have expanded my IT related knowledge as well as my soft 
-        skills being in daily contact with developers, software engineers, managers and clients.
-        <br><br>
-        I was also involved into the field of humanities as I worked as a Human Resource Manager. Therefore
-        experienced in personnel management and training organization as well.
-        <br><br>
-        Besides I am a freelance translator, more specifically a Film Subtitle Creator 
-        in cooperation with Netflix.
-
-      </h1>
-    
-
-      <!-- Vision section starts -->
-      <section class="vision" id="vision"></section>
-    
-
-      <h1 class="heading">
-          <span>v</span>
-          <span>i</span>
-          <span>s</span>
-          <span>i</span>
-          <span>o</span>
-          <span>n</span>
-          
-      </h1>
-      <h1 class="vision-text">
-I am looking for a place where the employee and the crew see my talent, my desire to grow and give me room 
-to develop.
-<br><br>
-A job with opportunities for further 
-progression, as my goal is to become an amazingly good Website 
-Creator.
-<br><br>
-I'm also exploring Backend, and interested in Graphic Design. In my free time I usually do sports and study.
-
-      </h1>
-
-      <!-- Skills section starts -->
-    <section class="skills" id="skills">
-
-      <h1 class="heading">
-          <span>s</span>
-          <span>k</span>
-          <span>i</span>
-          <span>l</span>
-          <span>l</span>
-          <span>s</span>
-          
-          
-      </h1>
-      <div class="skill-icon">
-
-        <img class="skillslogo1" src="Images/logo-1.png" alt="skillslogo1">
-        
-        
-        <img class="skillslogo2"src="Images/logo2_.png" alt="skillslogo2">
-        
-        <img class="skillslogo3"src="Images/logo-3_.png" alt="skillslogo3">
+    <div class="parallax-lower" id="parallax-bg">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-9 mx-auto">
+            <p></p>
+            <!-- <button class="btn2 mr-1"></button> -->
+          </div>
+        </div>
       </div>
+    </div>
 
-      
-
-      
-
-    <!--body section ends-->
-    <!--custom js file lin -->
-    <script src="script.js"></script>
-    <script>
-      let slideIndex = 0;
-      showSlides();
-    
-      function showSlides() {
-        let slides = document.getElementsByClassName("vid-btn");
-        slideIndex++;
-        if (slideIndex > slides.length) {slideIndex = 1}   
-        for (i = 0; i < slides.length; i++) {
-          slides[i].className = slides[i].className.replace(" active", "");
-        } 
-        slides[slideIndex-1].className += " active";
-        let src = slides[slideIndex-1].getAttribute("data-src");
-    document.querySelector("#video-slider").src = src;
-
-        setTimeout(showSlides, 5000); // Change image every 2 seconds
-      }
-    </script>
-
-    <section class="contact" id="contact">
-    
-      <h1 class="heading">
-          <span>c</span>
-          <span>o</span>
-          <span>n</span>
-          <span>t</span>
-          <span>a</span>
-          <span>c</span>
-          <span>t</span>
-          <span class="space"></span>
-          <span>m</span>
-          <span>e</span>
-      </h1>
-      
-      <div class="social-icon">
-
-        <a  href="https://instagram.com/feniindahouse" target="_blank">
-          <img class="insta" src="Images\logo-4.png" alt=""></a>
-        <a  href="https://www.linkedin.com/in/enikojuditpolcz/" target="_blank">
-          <img class="linkedin" src="Images\logo-5.png" alt="">
-        </a>
+    <div class="intro" id="intro">
+      <div class="container">
+        <div class="introduction-content">
+          <p class="introduction">
+            <br /><br />
+            ABOVE YOU'LL FIND MY TRAVEL BLOG AND ARTICLES CREATED BY ME SO FAR.
+            <br />
+            <br />
+            ENJOY!
+          </p>
+        </div>
       </div>
+    </div>
 
+    <footer>
+      <div class="bottom-part container-fluid bg-light py-1">
+        <p class="text-black text-center text-capitalize">
+          <br /><br /><br /><br />
+          all rights reserved &copy; 2023 /enikopolcz
+        </p>
+      </div>
+    </footer>
 
-  
-  </section>
-  
-<h1 class="credit"> created by <span> enikopolcz </span> </h1>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
 
-</section>
-
-  
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.6.2/js/bootstrap.min.js"></script>
   </body>
 </html>

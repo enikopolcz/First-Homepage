@@ -1,0 +1,91 @@
+html::-webkit-scrollbar {
+  display: none;
+}
+
+#parallax-navbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+#nav-link {
+  color: white;
+  font-weight: 600;
+  font-size: 15px;
+}
+.nav-item-spaced {
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+.nav-link {
+  letter-spacing: 10px;
+}
+
+/* END OF NAVBAR  */
+
+.parallax-header {
+  background: url(/img/slider/19x.jpg);
+  width: auto;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 400px;
+}
+
+.parallax-header h1 {
+  font-family: "Montserrat", sans-serif;
+  padding: 50px 0 200px 0;
+  letter-spacing: 10px;
+  font-size: 6rem;
+  font-size: clamp(5vh, 8rem, 15vw);
+  font-weight: 700;
+  border: solid;
+  border-bottom: none;
+}
+
+/* .header-content {
+  padding: 400px 0 200px 0;
+} */
+
+/* END OF HEADER */
+
+.container1 {
+  background-color: ghostwhite;
+  padding-top: 100px;
+  padding-bottom: 50px;
+  box-shadow: 0 0 20px -6px rgba(0, 0, 0, 0.2);
+}
+.intro {
+  font-family: "Montserrat", sans-serif;
+
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+  box-shadow: 0 0 20px -6px rgba(0, 0, 0, 0.2);
+}
+
+.written {
+  font-family: "Permanent Marker";
+  letter-spacing: 10px;
+  font-size: 30px;
+}
+
+.parallax-center {
+  background: url(/img/slider/20.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 30vw;
+}
+
+.bottom-part {
+  height: 150px;
+}
